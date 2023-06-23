@@ -1,0 +1,25 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.menu{
+    background: rgb(16, 136, 206);
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu ul li{
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+}

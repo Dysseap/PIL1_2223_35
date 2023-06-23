@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Emplois du Temps</title>
+
+    <!-- Feuille de style CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+	<div class ="container">	
+
+	    <!-- Barre de navigation -->
+	    <nav>
+	    	<ul>
+	    		<li><a href="#">Accueil</a></li>
+	    		<li><a href="#">Emploi du temps</a></li>
+	    		<li><a href="#">Cours</a></li>    		
+	    	</ul>    	
+	    </nav>
+
+
+	    <!-- Contenu principal -->
+
+	    <!-- Page pour éditer l'emploi du temps (réservée à l'administration)-->
+	    <div id="edit">
+		    <h1>Edition Emploi Du Temps - Semestre X </h1>
+
+		    <!-- Formulaire pour ajouter/modifier/supprimer des événements dans le calendrier-->
+		    <form action="#">
+		    	
+		    	<!-- Sélectionner le jour, heure, salle correspondante... etc.-->		    	
+
+		    	
+			    <label for="day">Jour :</label>			    
+			    <select name="day" id="day-select">			    	
+			    	<option value="lundi">Lundi</option>
+			    	<option value="mardi">Mardi</option>
+			    	<option value="mercredi">Mercredi</option>
+			    	<option value="jeudi">Jeudi</option>			    
+			    </select>
+
+			    <label for="time-slot">Heure :</label>		    
+			    <select name="time-slot" id="time-slot-select">
+				    <option value="">Choisissez une heure...</option>
+				    <optgroup label = "Matinée">
+				    	<option value ="8h-10h" >08h00 - 10h00</ option >
+					    < option  valeur = "10h-12h" > 10 h 00 - 12 h 00 </ option >
+					< / optgroup >
+				        
+				        <!-- etc. pour le reste des heures-->
+
+			       
+			        </ select >
+
+			        <!-- Sélectionner l'enseignant, la matière... etc-->
+		           
+
+		        <!-- Boutons pour ajouter/modifier/supprimer un événement dans le calendrier-->
+		        <div class ="button-group">
+		        	
+		        	<button type ="submit"class= "btn-add-event ">Ajouter un événement </button>
+
+		        	
+		        	<button type ="submit"class= "btn-update-event ">Modifier l'événement </button>
+
+		     
+		        	
+			        	
+
+	        		
+	        	        	
+
+	        		
+		        	
+
+
+		     </form>
+
+
+	    </div>
+
+
+	    <!-- Page pour consulter l'emploi du temps (pour les étudiants)-->
+	    <div id="view">
+
+		    <!-- Titre de la page -->
+		    <h1>Emploi Du Temps - Semestre X </h1>
+
+		    <!-- Tableau des emplois du temps -->
+	        <table >
+
+		        <!-- Entêtes des colonnes -->
+	             <tr>
+	             	<th>Jour / Heure</th>
+	             	<th>Cours 1</th>
+	             	<th>Cours 2</th>
+	             	<th>Cours 3</th>        	
+	             </tr>
+
+		         <!-- Ligne correspondant au lundi matin -->
+		         <tr>
+		          	<td>Lundi<br>08h00-10h00</td>
+		          	<td>Mathématiques</td>
+		          	<td></td>	          	
+		         	<td>Informatique</td>        	
+		         </tr>
+
+		        <!-- Lignes pour le reste des jours et heures-->
+
+		    </table>
+
+
+	    </div>
+
+
+
+	    
+    </div>
+
+
+    
+</body>
+
+<!-- Script JavaScript-->
+<script src="./js/script.js"></script>

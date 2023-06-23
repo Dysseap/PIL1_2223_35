@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Emplois du temps</title>
+
+    <!-- Feuille de style CSS -->
+    <style type="text/css">
+
+        /* Réinitialisation */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Style général */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333333; 
+        }
+        
+      h1 {margin-top:.5rem;}
+
+     .container{         
+         width :100%;    
+         max-width :1200px ;             
+         margin:auto ;
+     }  
+
+     table{
+          background-color:white;  
+          padding :2rem ;
+          border-radius :.3rem ;   
+          
+      }
+      
+       th,td{
+             text-align:center ;
+             padding:.75rem ;                     
+      }      
+
+            
+   </style>
+
+</head>
+
+<body>
+	<div class ="container">	
+	    <!-- Tableau des emplois du temps-->
+	    <table >
+
+	        <!-- Titre de la page-->
+	        <h1>Emploi du Temps - Semestre X</h1>
+
+
+	        <!-- Entêtes des colonnes-->
+	         <tr>
+	         	<th>Jour / Heure</th>
+	         	<th>Cours 1</th>
+	         	<th>Cours 2</th>
+	         	<th>Cours 3</th>        	
+	         </tr>
+
+	         <!-- Ligne correspondant au lundi matin-->
+	         <tr>
+	          	<td>Lundi<br>08h00-10h00</td>
+	          	<td>Mathématiques</td>
+	          	<td></td>
+	         	<td>Informatique</td>        	
+	         </tr>
+
+	         <!-- Ligne correspondant au lundi après-midi-->
+	         <tr>
+	         	<td>Lundi<br>14h00-16h00</td>
+	         	<td>Informatique</td>
+	         	<td></td>
+	         	<td>Physique-Chimie</td>        	         	
+	         </tr>
+
+	        <!-- Et ainsi de suite pour chaque jour et heure-->
+
+	    </table>
+    </div>
+
+
+    
+</body>
+
+</html>

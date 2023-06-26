@@ -1,0 +1,85 @@
+*
+{top: 0;
+
+
+}
+
+
+main
+{
+    margin-top: 30%;
+    text-align: center;
+    width: 100%;
+  margin-right: 20%;
+  
+}
+
+   main a
+{
+ text-decoration: none;
+ border: 1px solid black;
+ padding: 3px;
+ text-align: center;
+ background: rgb(138, 132, 123);
+ color: white;
+ margin-left: 100px;
+}
+
+.containt img
+{
+width: 100%;
+
+}
+
+.body1
+{
+  background-image: url(img/main.jpg)  ;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+.bdetudiant
+{
+
+  background-color: rgb(121, 147, 170);
+  background-image: url(img/lake_wanaka.jpg)  ;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+
+
+
+.bdadmin
+{
+
+  background-color: rgb(121, 147, 170);
+  background-image: url(img/horloge-atomique-plus-precise-monde-perd-une-seconde-15-milliards-annees-001-1200x675.jpg)  ;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+
+.collapse li a
+{
+  color: rgb(61, 201, 211);
+}
+
+
+
+.containt
+{
+ width: 100%;
+ position: relative;
+ 
+}
+/*mettre le text en position absolue pour avoir la superposition*/
